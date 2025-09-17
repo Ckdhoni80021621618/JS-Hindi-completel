@@ -8,8 +8,7 @@ let jsuser={
   name:"Amrendra singh",
   age:55,
   location:"Dadanpur",
-  wife:"Shruti singh",
-  sex:"two times",
+ 
   email:"vcgcgc@GamepadHapticActuator.com",
   isLoggedIn:false,
   "full name":"Thakur Amrendra singh",
