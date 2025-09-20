@@ -34,3 +34,14 @@ chai();
 //const addTwonumbers = (number1,number2) =>number1+number2;
 const addTwonumbers = (number1,number2) =>(number1+number2);
 console.log(addTwonumbers(6,5));
+
+const getUser = () => ({ username: "hitesh", age: 25 });//object return krega ga kyki curly braces k andar hai... 
+
+console.log(getUser());
+// Output: { username: 'hitesh', age: 25 }
+
+
+const createUser = (name, age) => ({ username: name, age: age });
+console.log(createUser("Aman", 22));
+// Output: { username: 'Aman', age: 22 }
+

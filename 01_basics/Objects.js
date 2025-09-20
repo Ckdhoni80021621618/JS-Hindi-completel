@@ -8,7 +8,11 @@ let jsuser={
   name:"Amrendra singh",
   age:55,
   location:"Dadanpur",
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> d6e3c50 (upload all new projects and updated files)
   email:"vcgcgc@GamepadHapticActuator.com",
   isLoggedIn:false,
   "full name":"Thakur Amrendra singh",

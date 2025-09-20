@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratice</title>
+</head >
+
+
+<body style=" background-color: #212121; color: #fff;">
+
+  <ul class="name">
+    <li>Amrendra</li>
+  </ul>
+
+  <ul class="state">
+    <li>bihar</li>
+  </ul>
+
+  <!-- <label for="password">Password:</label>
+<input type="password" id="password" name="userpass"> -->
+
+
+  <script>
+    
+    // we have to all no. of list in ul....... 1st way
+    function addname(addnameinlist){
+      const li =document.createElement('li')
+      li.innerHTML=`${addnameinlist}`
+      document.querySelector(".name").appendChild(li)
+      //nam1.appendChild(li)
+   }
+    addname("Chhotu")
+    addname("Mohit")
+    addname("Amit")
+
+   // 2nd way......
+    function nameadd(nameaddition){
+       const li=document.createElement('li')
+       //const nodes=
+       li.appendChild(document.createTextNode(nameaddition))
+       //li.appendChild(nodes)
+       document.querySelector('.name').appendChild(li)
+     }
+     nameadd("nishant")
+     nameadd("Ravi")
+     nameadd("Ramesh")
+     
+     //edit or replace
+     const a1= document.querySelector("li:nth-child(2)")
+     // a1.innerHTML="ram"
+      const a2= document.createElement('li')
+      a2.textContent="Shyam"
+      a1.replaceWith(a2)
+
+
+
+      function cityname(name){
+       const li= document.createElement('li')
+       li.innerHTML=`${name}`
+       const l1=document.querySelector('.state')
+       l1.appendChild(li)
+      }
+
+      cityname("patna")
+      cityname("chhapra")
+
+      function countryname(country){
+        const li=document.createElement('li')
+        li.appendChild( document.createTextNode(country))
+        document.querySelector('.state').appendChild(li)
+      }
+      countryname("india")
+      countryname("usa")
+
+</script>
+  
+</body>
+
+</html>
